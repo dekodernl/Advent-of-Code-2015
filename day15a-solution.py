@@ -1,3 +1,4 @@
+#!/usr/bin/python
 from itertools import permutations as perms
 
 def solution():
@@ -7,14 +8,7 @@ def solution():
     flavor = [0, 0, 4, -2]
     texture = [-3, 0, 0, 2]
     calories = [2, 9, 1, 8]
-
-    #ingredients = ["Butterscotch", "Cinnamon"]
-    #capacity = [-1, 2]
-    #durability = [-2, 3]
-    #flavor = [6, -2]
-    #texture = [3, -1]
-    #calories = [8, 3]
-
+    
     high_score = 0
     high_score_spoons = ()
     for spoons in list(perms(range(1, 101), len(ingredients))):

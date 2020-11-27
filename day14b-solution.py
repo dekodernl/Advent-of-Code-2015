@@ -2,7 +2,6 @@ import operator
 
 def race(reindeer, stop):
     names = [r[0] for r in reindeer]
-    print(names)
     timeline = {}
     distance = {}
     score = {}
@@ -43,4 +42,4 @@ reindeer_enrolled = [
 ]
 
 result = race(reindeer_enrolled, stop)
-print(result)
+print("The winnar is: %s with %d points!!!" % (result[0], result[1]))

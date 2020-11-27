@@ -1,3 +1,4 @@
+#!/usr/bin/python
 def reindeer(name, speed, duration, rest, stop):
     distance = 0
     time = 0
